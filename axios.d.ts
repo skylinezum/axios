@@ -1,4 +1,4 @@
-// Type definitions for Axios v0.7.0
+// Type definitions for Axios v0.8.1
 // Project: https://github.com/mzabriskie/axios
 
 
@@ -49,6 +49,7 @@ declare module axios {
     xsrfCookieName?: string;
     xsrfHeaderName?: string;
     paramsSerializer?: (params: any) => string;
+    baseURL?: string;
   }
 
   interface RequestOptions extends InstanceOptions {
